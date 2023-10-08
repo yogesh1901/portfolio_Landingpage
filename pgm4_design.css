@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sideBar
+{
+    background-image: url("86340.jpg") ;
+    width: 334px;
+    height: 120vh;
+}
+.sideBar nav
+{
+    padding: 72px;
+}
+.sideBar nav li
+{
+    list-style: none;
+    font-size: 30px;
+    padding:  33px 0;
+}
+.sideBar nav li a
+{
+   text-decoration: none;
+   font-size: xx-large;
+   color: black;
+
+} 
+.sideBar nav li a:hover
+{
+  color: rgb(94, 147, 93);
+} 
+.main
+{
+   background-image: url("86340.jpg");
+   width: 80vw;
+}
+.container
+{
+    display: flex;
+    font-family: 'Fira Sans', sans-serif;
+}
+.infoContainer
+{
+     background-image: url("3442937.jpg");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-position: cover;
+     height: 78vh;
+     width: 80vw;
+     margin: 144px auto;
+     display: flex;
+     justify-content: space-around;
+}
+.devinfo
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.hello
+{
+ font-size: 85px;
+}
+.name
+{
+font-size: 70px;
+font-family: 'Roboto', sans-serif;
+}
+.about
+{
+font-size: 50px;
+}
+.buttons button
+{
+    padding: 9px 14px; 
+    background-color: rgb(38, 163, 59);
+    color: rgb(245, 245, 245);
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 25px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.buttons button:hover
+{
+    background-color: rgb(15, 141, 245);
+    color:rgb(65, 202, 195);
+}
+.devpic img
+{
+    height: 78vh;   
+}
+.formmain
+{
+    display: flex;
+    background-color: rgb(217, 217, 100);
+    width: 80vw;
+}
+.contactform
+{
+    display: flex;
+    background-color: rgb(53, 137, 137);
+    height: 165px;
+    width: 50vw    ;
+    justify-content: center;
+    color: brown;
+}
+
